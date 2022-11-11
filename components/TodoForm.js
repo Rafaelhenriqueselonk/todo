@@ -7,6 +7,7 @@ const postNewTodo = function (todo) {
         headers: {
             'Content-Type': 'application/json',
         },
+        body: JSON.stringify(todo)
     })
 }
 

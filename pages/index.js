@@ -20,7 +20,7 @@ const tableRowItem = function (item) {
 
 export default function Home() {
 
-  const { data, error } = useSWR('/api/todos', fetcher)
+    const { data, error } = useSWR('/api/todos', fetcher, { refreshInterval: 1000})
 
   if (error) return <div>failed to load</div>
   if (!data) return <div>Carregando...</div>
