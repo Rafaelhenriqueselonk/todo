@@ -1,7 +1,7 @@
 html,
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #e5e7e6;
+    background-color: #ffffff;
 }
 
 .todo-form {
@@ -53,7 +53,7 @@ body {
 }
 
 .done {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(38, 255, 0, 0.695);
 }
 
 .done>div {
